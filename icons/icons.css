@@ -91,6 +91,9 @@
 .fa-up-right-and-down-left-from-center:before {
     content: "\f424"
 }
+.fa-arrow-right:before {
+    content: "\f061"
+}
 
 
 
