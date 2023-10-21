@@ -12,7 +12,6 @@ AOS.init();
 const menuItemMobile = document.querySelector('.menu-items-mobile');
 const mobileMenBoard = document.querySelector('.mobile-menu-board');
 const menuFlags = document.querySelector('.menu-flags')
-console.log(menuFlags)
 
 mobileMenBoard.addEventListener('click', function (){
     if(this.classList.contains(active)){
@@ -37,4 +36,5 @@ window.addEventListener('scroll', (e)=>{
         menu.classList.remove(active)
     }
 })
+
 
