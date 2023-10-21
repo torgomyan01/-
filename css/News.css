@@ -1,0 +1,20 @@
+.news-page {
+  margin-top: 119px;
+}
+.news-page-title h3 {
+  color: #033862;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 40px; /* 166.667% */
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.news-page-title h2 {
+  color: #033862;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 40px; /* 166.667% */
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=News.css.map */

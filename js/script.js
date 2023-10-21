@@ -37,3 +37,4 @@ window.addEventListener('scroll', (e)=>{
         menu.classList.remove(active)
     }
 })
+
