@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" href="android-chrome-192x192.png">
   <meta name="msapplication-config" content="browserconfig.xml"/>
 
-  <script src="js/bootstrap.bundle.min.js"></script>
+<!--  <script src="js/bootstrap.bundle.min.js"></script>-->
   <script src="js/aos.js"></script>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -28,148 +28,136 @@
 <body>
 
 
-
-    <nav id="menu" class="menu !h-100 ">
-      <div class="container menu-container h-100 d-flex justify-content-between align-items-center">
-        <div class="menu-logo me-56 me-xl-56">
-          <a href="#header">
-            <img src="images/Logo.svg" width="209" height="68" alt="Logo">
+<nav id="menu" class="menu !h-100 ">
+  <div class="container menu-container h-100 d-flex justify-content-between align-items-center">
+    <div class="menu-logo me-56 me-xl-56">
+      <a href="#header">
+        <img src="images/Logo.svg" width="209" height="68" alt="Logo">
+      </a>
+    </div>
+    <div class="menu-items d-flex justify-content-start align-items-center">
+      <a href="#header" class="c-blue me-20 me-xl-28 fs-15 fw-500 text-nowrap">О компании</a>
+      <a href="#news" class="c-blue me-20 me-xl-28 fs-15 fw-500">Новости</a>
+      <a href="#partners" class="c-blue me-20 me-xl-28 fs-15 fw-500">Партнерам</a>
+      <a href="#footer" class="c-blue fs-15 fw-500 text-nowrap">Реквизиты и контакты</a>
+      <div class="menu-items-image ms-35 ms-xl-56 d-flex">
+        <a href="#">
+          <img src="images/telegram.svg" alt="tele">
+        </a>
+        <a class="ms-8 ms-xl-16" href="#">
+          <img src="images/Wk.svg" alt="wk">
+        </a>
+      </div>
+    </div>
+    <div class="menu-flags ms-45 ms-xl-45 d-flex align-items-center">
+      <span class="flag-text me-13 me-xl-16 fs-15 fw-500 c-gray">Язык:</span>
+      <a class="me-9 me-xl-12 cursor-pointer" href="#">
+        <img src="images/Uzbekstan.svg" alt="uz">
+      </a>
+      <a class="me-9 me-xl-12 " href="#">
+        <img src="images/Tajikstan.svg" alt="Tj">
+      </a>
+      <a class="me-9 me-xl-12 " href="#">
+        <img src="images/Kyrgizstan.svg" alt="KZ">
+      </a>
+      <a href="#">
+        <img src="images/Russia.svg" alt="RS">
+      </a>
+      <div style="cursor: pointer" class="mobile-menu-board">
+        <span class="с-blue"></span>
+        <span class="с-blue"></span>
+        <span class="с-blue"></span>
+      </div>
+    </div>
+    <div class="menu-items-mobile">
+      <div class="container">
+        <a href="#header" class="c-blue d-block mb-24 fs-18 fs-lg-15 fw-500">О компании</a>
+        <a href="#news" class="c-blue d-block mb-24 fs-18 fs-lg-15 fw-500">Новости</a>
+        <a href="#partners" class="c-blue d-block mb-24 fs-18 fs-lg-15 fw-500">Партнерам</a>
+        <a href="#footer" class="c-blue d-block mb-24 fs-18 fs-lg-15 fw-500">Реквизиты и контакты</a>
+        <div class="menu-items-image mt-32">
+          <a class="me-16" href="#">
+            <img src="images/telegram.svg" alt="tele">
+          </a>
+          <a href="#">
+            <img src="images/Wk.svg" alt="wk">
           </a>
         </div>
-        <div class="menu-items d-flex justify-content-start align-items-center">
-          <a href="#header" class="c-blue me-20 me-xl-28 fs-15 fw-500 text-nowrap">О компании</a>
-          <a href="#news" class="c-blue me-20 me-xl-28 fs-15 fw-500">Новости</a>
-          <a href="#partners" class="c-blue me-20 me-xl-28 fs-15 fw-500">Партнерам</a>
-          <a href="#footer" class="c-blue fs-15 fw-500 text-nowrap">Реквизиты и контакты</a>
-          <div class="menu-items-image ms-35 ms-xl-56 d-flex">
-            <a href="#">
-              <img src="images/telegram.svg" alt="tele">
-            </a>
-            <a class="ms-8 ms-xl-16" href="#">
-              <img src="images/Wk.svg" alt="wk">
-            </a>
-          </div>
-        </div>
-        <div class="menu-flags ms-45 ms-xl-45 d-flex align-items-center">
-          <span class="flag-text me-13 me-xl-16 fs-15 fw-500 c-gray">Язык:</span>
-          <a class="me-9 me-xl-12 cursor-pointer" href="#">
+        <div class="menu-flags-menu mt-22">
+          <span class="d-block fs-15 fw-500 c-gray mb-1">Язык:</span>
+          <a class="me-12 cursor-pointer" href="#">
             <img src="images/Uzbekstan.svg" alt="uz">
           </a>
-          <a class="me-9 me-xl-12 " href="#">
+          <a class="me-12" href="#">
             <img src="images/Tajikstan.svg" alt="Tj">
           </a>
-          <a class="me-9 me-xl-12 " href="#">
+          <a class="me-12" href="#">
             <img src="images/Kyrgizstan.svg" alt="KZ">
           </a>
           <a href="#">
             <img src="images/Russia.svg" alt="RS">
           </a>
-          <div style="cursor: pointer" class="mobile-menu-board">
-            <span class="с-blue"></span>
-            <span class="с-blue"></span>
-            <span class="с-blue"></span>
-          </div>
-        </div>
-        <div class="menu-items-mobile">
-          <div class="container">
-            <a href="#header" class="c-blue d-block mb-24  fs-15 fw-500">О компании</a>
-            <a href="#news" class="c-blue d-block mb-24  fs-15 fw-500">Новости</a>
-            <a href="#partners" class="c-blue d-block mb-24 fs-15 fw-500">Партнерам</a>
-            <a href="#footer" class="c-blue d-block mb-24  fs-15 fw-500">Реквизиты и контакты</a>
-            <div class="menu-items-image mt-32">
-              <a class="me-16" href="#">
-                <img src="images/telegram.svg" alt="tele">
-              </a>
-              <a href="#">
-                <img src="images/Wk.svg" alt="wk">
-              </a>
-            </div>
-            <div class="menu-flags-menu mt-22">
-              <span class="d-block fs-15 fw-500 c-gray">Язык:</span>
-              <a class="me-12 cursor-pointer" href="#">
-                <img src="images/Uzbekstan.svg" alt="uz">
-              </a>
-              <a class="me-12" href="#">
-                <img src="images/Tajikstan.svg" alt="Tj">
-              </a>
-              <a class="me-12" href="#">
-                <img src="images/Kyrgizstan.svg" alt="KZ">
-              </a>
-              <a href="#">
-                <img src="images/Russia.svg" alt="RS">
-              </a>
-            </div>
-          </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </div>
+</nav>
 
-  <div class="container">
+<div class="container main">
+  <section id="header" class="header">
+    <div class="header-title">
+      <h1 data-aos="fade-right" data-aos-duration="1300">
+        Компания ООО “Мигрант Сервис” - российский разработчик программного обеспечения для мигрантов в РФ.
+      </h1>
+      <p data-aos="fade-right" data-aos-duration="2000">
+        Компания входит в реестр Российских стартапов и является резидентом “ИТ-парк в сфере высоких технологий им.
+        Башира Рамеева”
+      </p>
+    </div>
+  </section>
 
-    <section id="header" class="header">
+  <section id="news" class="news">
+    <div class="news-title d-flex justify-content-between align-items-center">
+      <h2 class="mb-0">Новости</h2>
+      <button>
+        <a href="news.html"><span>Все новости</span></a>
+        <i class="fa-solid fa-arrow-right ms-1"></i>
+      </button>
+    </div>
 
-      <div class="header-title">
-        <h1>
-          Компания ООО “Мигрант Сервис” - российский разработчик программного обеспечения для мигрантов в РФ.
-        </h1>
-        <p>
-          Компания входит в реестр Российских стартапов и является резидентом “ИТ-парк в сфере высоких технологий им. Башира Рамеева”
-        </p>
-      </div>
-
-    </section>
-
-    <section id="news" class="news">
-
-      <div class="news-title d-flex justify-content-between align-items-center">
-        <h2 class="mb-0">Новости</h2>
-        <button>
-          <a href="news.html"><span>Все новости</span></a>
-          <i class="fa-solid fa-arrow-right ms-1"></i>
-        </button>
-      </div>
-
-      <div class="row mt-24">
-        <div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-4 ">
-          <div style="background-image: url('images/news-img1.png')"  class="news-box h-222">
-            <div class="news-box-text">
-              <h5 class="data">15.10.2023</h5>
-              <p>О РосМигранте узнали в правительстве Узбекистана</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-4">
-          <div style="background-image: url('images/news-img2.png')"  class="news-box  h-222">
-            <div class="news-box-text">
-              <h5 class="data">8.10.2023</h5>
-              <p>Выпущено обновление приложения версии 1.7</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-12 col-12">
-          <div style="background-image: url('images/news-img3.png')"  class="news-box h-222">
-            <div class="news-box-text">
-              <h5 class="data">28.09.2023</h5>
-              <p>Расширяем карту интеграции</p>
-            </div>
+    <div class="row mt-24">
+      <div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-4 ">
+        <div style="background-image: url('images/news-img1.png')" class="news-box h-222">
+          <div class="news-box-text">
+            <h5 class="data">15.10.2023</h5>
+            <p>О РосМигранте узнали в правительстве Узбекистана</p>
           </div>
         </div>
       </div>
-
-    </section>
-
-    <section id="migrant" class="migrant position-relative">
-
-      <div class="inner">
-
-      <div class="migrant-iphone-image">
-        <img src="images/migrant-iphone.png" alt="migrant">
+      <div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-4">
+        <div style="background-image: url('images/news-img2.png')" class="news-box  h-222">
+          <div class="news-box-text">
+            <h5 class="data">8.10.2023</h5>
+            <p>Выпущено обновление приложения версии 1.7</p>
+          </div>
+        </div>
       </div>
+      <div class="col-lg-4 col-12 col-12">
+        <div style="background-image: url('images/news-img3.png')" class="news-box h-222">
+          <div class="news-box-text">
+            <h5 class="data">28.09.2023</h5>
+            <p>Расширяем карту интеграции</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="migrant" class="migrant position-relative">
+    <div class="inner">
       <div class="migrant-white-box">
-
         <div class="migrant-white-box-logo">
-          <img  src="images/migrant.svg" alt="mi">
+          <img src="images/migrant.svg" alt="mi">
         </div>
         <div class="migrant-white-box-texts">
           <h2>С помощью приложения вы легко сможете:</h2>
@@ -212,134 +200,101 @@
         <div class="migrant-white-box-application mt-25">
           <a href="#">
             <img src="images/Play_store.svg" alt="Play">
+          </a>
+          <a href="#">
             <img src="images/App_Store.svg" alt="App">
           </a>
         </div>
+        <div class="migrant-iphone-image">
+          <img src="images/migrant-iphone.png" alt="migrant" width="1264" height="1394">
+        </div>
       </div>
+    </div>
+  </section>
+</div>
 
-      </div>
+<section id="partners" class="partners mt-64">
+  <div class="container partners-container">
+    <div class="partners-texts">
+      <h2>Партнерам</h2>
 
-    </section>
-
+      <p>ООО “Мигрант Сервис” активно развивает партнерскую программу и интегрировало
+        в приложение “РосМигрант” сервис по обучению русскому языку, медицинские, финансовые и другие услуги.
+        <br>
+        <br>
+        ООО “Мигрант Сервис” рассматривает предложения о сотрудничестве с
+        целью обеспечить единую точку входа и максимально удобный сервис получения
+        наиболее полезных и востребованных услуг для иностранных граждан, проживающих
+        и работающих на территории Российской Федерации.
+      </p>
+    </div>
   </div>
+</section>
 
-    <section id="partners" class="partners mt-64">
 
-      <div class="container partners-container">
-
-        <div class="partners-texts">
-
-          <h2>Партнерам</h2>
-
-          <p>ООО “Мигрант Сервис” активно развивает партнерскую программу и интегрировало
-            в приложение  “РосМигрант” сервис по обучению русскому языку, медицинские, финансовые и другие услуги.
-            <br>
-            <br>
-            ООО “Мигрант Сервис” рассматривает предложения о сотрудничестве с
-            целью обеспечить единую точку входа и максимально удобный сервис получения
-            наиболее полезных и востребованных услуг для иностранных граждан, проживающих
-            и работающих на территории Российской Федерации. </p>
-
-        </div>
-
-<!--        <div class="partners-image">-->
-<!--          <img src="images/partners-bg.png" alt="partners">-->
-<!--        </div>-->
-
+<section id="our-partners" class="our-partners">
+  <div class="container">
+    <div class="our-partners-inner">
+      <div class="our-partners-inner-head">
+        <h2>
+          Наши Партнеры
+        </h2>
       </div>
-
-    </section>
-
-
-    <section id="our-partners" class="our-partners">
-
-     <div class="container">
-
-       <div class="our-partners-inner">
-
-
-         <div class="our-partners-inner-head">
-           <h2>Наши
-             Партнеры</h2>
-         </div>
-
-
-         <div class="our-partners-inner-box">
-           <div class="our-partners-inner-box-image">
-             <img width="226" height="110" src="images/our-partners1.png" alt="our">
-           </div>
-           <div class="our-partners-inner-box-image">
-             <img width="100" height="100" src="images/our-partners2.png" alt="our">
-           </div>
-           <div class="our-partners-inner-box-image d-flex align-items-center">
-             <img width="71" height="70" src="images/our-partners3.png" alt="our">
-             <span class="ms-2">ФССП России</span>
-           </div>
-           <div class="our-partners-inner-box-image d-flex align-items-center">
-             <img width="70" height="70" src="images/our-partners4.png" alt="our">
-             <span class="ms-2">ФЕДЕРАЛЬНАЯ <br>  НАЛОГОВАЯ СЛУЖБА</span>
-           </div>
-           <div class="our-partners-inner-box-image ms-0 ms-lg-4 d-flex align-items-center">
-             <img width="70" height="70" src="images/our-partners5.png" alt="our">
-             <span class="ms-2">Госавтоинпекция</span>
-           </div>
-         </div>
-
-
-
-
-
-       </div>
-
-
-
-     </div>
-
-
-    </section>
-
-
-    <footer id="footer" class="footer">
-
-      <div class="container">
-
-      <div class="footer-inner">
-
-        <div class="footer-inner-contact">
-          <h3 class="mb-12">Контакты:</h3>
-          <p class="mb-12">ООО “Мигрант Сервис” © 2023</p>
-          <a class="mb-2" href="#">
-            РФ, 420073, Республика Татарстан, <br>
-            г. Казань, ул. Достоевского, 40-36
-          </a>
-          <span class="mb-2"><samp>ИНН:</samp>1655493493</span>
-          <span class="mb-2"><samp>КПП:</samp>165501001</span>
-          <span class="mb-2"><samp>ОГРН:</samp>1231600010872</span>
+      <div class="our-partners-inner-box">
+        <div class="our-partners-inner-box-image">
+          <img width="226" height="110" src="images/our-partners1.png" alt="our">
         </div>
-
-        <div class="footer-inner-contact">
-          <h3 class="mb-12">Служба поддержки:</h3>
-          <p class="mb-29">Для связи со службой поддержки воспользуйтесь разделом помощь в <br>
-            мобильном приложении или напишите на адрес <a href="#">support@rosmigrant.online</a>
-          </p>
-          <h3 class="mb-12">Документы:</h3>
-          <a class="footer-inner-contact-link mb-12" href="#">
-            Политика конфиденциальности
-          </a>
-          <a class="footer-inner-contact-link" href="#">
-            Публичная оферта
-          </a>
+        <div class="our-partners-inner-box-image">
+          <img width="100" height="100" src="images/our-partners2.png" alt="our">
         </div>
-
-
+        <div class="our-partners-inner-box-image d-flex align-items-center">
+          <img width="71" height="70" src="images/our-partners3.png" alt="our">
+          <span class="ms-2">ФССП России</span>
+        </div>
+        <div class="our-partners-inner-box-image d-flex align-items-center">
+          <img width="70" height="70" src="images/our-partners4.png" alt="our">
+          <span class="ms-2">ФЕДЕРАЛЬНАЯ <br>  НАЛОГОВАЯ СЛУЖБА</span>
+        </div>
+        <div class="our-partners-inner-box-image ms-0 ms-lg-4 d-flex align-items-center">
+          <img width="70" height="70" src="images/our-partners5.png" alt="our">
+          <span class="ms-2">Госавтоинпекция</span>
+        </div>
       </div>
+    </div>
+  </div>
+</section>
 
 
-
+<footer id="footer" class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-inner-contact">
+        <h3 class="mb-12">Контакты:</h3>
+        <p class="mb-12">ООО “Мигрант Сервис” © 2023</p>
+        <a class="mb-2" href="#">
+          РФ, 420073, Республика Татарстан, <br>
+          г. Казань, ул. Достоевского, 40-36
+        </a>
+        <span class="mb-2"><samp>ИНН:</samp>1655493493</span>
+        <span class="mb-2"><samp>КПП:</samp>165501001</span>
+        <span class="mb-2"><samp>ОГРН:</samp>1231600010872</span>
       </div>
-
-
-    </footer>
+      <div class="footer-inner-contact">
+        <h3 class="mb-12">Служба поддержки:</h3>
+        <p class="mb-29">Для связи со службой поддержки воспользуйтесь разделом помощь в <br>
+          мобильном приложении или напишите на адрес <a href="#">support@rosmigrant.online</a>
+        </p>
+        <h3 class="mb-12">Документы:</h3>
+        <a class="footer-inner-contact-link mb-12" href="#">
+          Политика конфиденциальности
+        </a>
+        <a class="footer-inner-contact-link" href="#">
+          Публичная оферта
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 <script src="js/fastfront.js"></script>
