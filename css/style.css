@@ -13,12 +13,12 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: linear-gradient(172deg, rgba(88, 81, 219, 0.97) 0%, rgba(131, 58, 180, 0.92) 23.08%, #C13584 53.01%, #E1306C 78.13%, #FD1D1D 100%);
+  background: #033862;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(172deg, rgba(88, 81, 219, 0.97), #C13584 53.01%, #E1306C 78.13%, #FD1D1D 100%);
+  background: #033862;
 }
 
 * {
@@ -139,9 +139,6 @@ body {
   top: 0;
   width: 100%;
   transition: 0.3s;
-}
-.menu .menu-container {
-  width: 1156px;
 }
 .menu.active .menu-container {
   background: rgba(255, 255, 255, 0.5);

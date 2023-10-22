@@ -2,13 +2,22 @@
 
 
 
-.news-item{
-    margin-top: 119px;
-  &-wrapper{
+
+.wrapper{
     border-radius: 24px;
     background: #FFF;
     box-shadow: 0 0 16px 0 rgba(3, 56, 98, 0.10);
-    padding: 34px 0 28px 0;
+    &-links{
+      opacity: .5;
+    }
+
   }
 
+.migrant-wiframe{
+  @media (max-width: 475px) {
+    margin-bottom: 140px !important;
+  }
+  @media (max-width: 375px) {
+    margin-bottom: 170px !important;
+  }
 }
